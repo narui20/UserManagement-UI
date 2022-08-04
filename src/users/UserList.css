@@ -1,0 +1,46 @@
+.header{
+    border: 1px solid #999;
+    padding: 0.5rem;
+    background-color: lightslategray;
+    color:black;
+    width: 250px;
+    font-size: 18px;
+    font-style: oblique;
+}
+
+.data{
+    border: 1px solid #999;
+    padding: 0.5rem;
+    background-color: lightgray;
+    color:black;
+    font-size: 18px;
+}
+.table__main{
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+}
+.button__edit{
+    color: blueviolet;
+    padding : 8px 15px;
+    border-radius: 5px;
+    border: none;
+}
+.button__delete{
+    color: rgb(243, 67, 44);
+    padding : 8px 15px;
+    border-radius: 5px;
+    border: none;
+}
+.button__delete:hover{
+    cursor: pointer;
+    background-color: #999;
+}
+.button__edit:hover{
+    cursor: pointer;
+    background-color: #999;
+}
+.button__main{
+    display: flex;
+    justify-content: space-around;
+}
